@@ -1,6 +1,19 @@
-# api
+#### branch details
 
-- rest api 에 사용되는 몇가지 api에 대한 저장소 입니다. 
-- 개인적인 사용목적으로 작성되었으며, 단순히 패키지를 이용하거나 본인이 직접 구현한 api들이 포함됩니다. 
-#### details 
-- fd - mtcnn(tensorflow),pypi package
+- fd : mtcnn(mxnet)
+- submodule : heewinkim/python-utils
+
+#### how to serving using gunicorn
+
+```
+# ${PWD}==${PROJECT_ROOT}
+# pyenv activate ${PYENV_NAME} # PYTHON_VERSION==3.6.1
+# pip install -r requirements.txt
+```
+./script start.sh
+./script status.sh
+./script stop.sh
+
+#### how to test
+
+$ curl -X POST -H Content-Type:application/json -d "@sample.json" http://0.0.0.0:5000/v1/heewinkim/fd
