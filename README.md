@@ -5,4 +5,4 @@
 - 각 api들은 브랜치로 관리됩니다.. (개인사용하기 편하게) 
 
 #### branch details 
-- fd : mtcnn(tensorflow),pypi package
+- fd : mtcnn(mxnet) 
