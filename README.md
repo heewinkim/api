@@ -1,6 +1,6 @@
 #### branch details
 
-- fd : mtcnn(mxnet)
+- fd : mtcnn(mxnet) 
 - submodule : heewinkim/python-utils
 
 #### how to serving using gunicorn
